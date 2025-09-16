@@ -45,8 +45,8 @@ packages to OpenWrt, please find the fitting repository below.
 ## Support Information
 
 Currently the project supports the [Banana Pi BPI-R4](https://wiki.banana-pi.org/Banana_Pi_BPI-R4),
-The Teltonika RUTX series routers [RUTX routers](https://wiki.teltonika-networks.com/view/RUTX_Routers),
-The Teltonika RUTM series routers [RUTM routers](https://wiki.teltonika-networks.com/view/RUTM_Routers).
+The Teltonika [RUTX series routers](https://wiki.teltonika-networks.com/view/RUTX_Routers),
+The Teltonika [RUTM series routers](https://wiki.teltonika-networks.com/view/RUTM_Routers).
 
 More hardware coming soon!
 
