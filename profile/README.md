@@ -4,12 +4,12 @@
   <img src="include/logolight.png" alt="openwrtmptcp Logo">
 </picture>
 
-FusionLink Multipath Bonding based on Multipath TCP is a fork of OpenWrt that integrates Multipath TCP (MPTCP), providing advanced network aggregation and redundancy capabilities. This project leverages an upstream kernel and is currently focused on supporting the Banana Pi BPi R4, Teltonika RUTX series and Teltonika RUTM series devices, with plans to expand support to all OpenWrt-compatible devices. The main goal of openwrtmptcp is to combine multiple internet connections into a single connection to improve both bandwidth throughput and network reliability. By aggregating multiple internet breakouts, users can achieve better performance and maintain connectivity even if one of the connections fails.
+FusionLink Multipath Bonding based on Multipath TCP (MPTCP) is a set of programmes that utilises MPTCP, providing advanced network aggregation and redundancy capabilities. This project leverages an upstream kernel and is currently focused on supporting all OpenWrt-supported devices, Teltonika RUTX series and Teltonika RUTM series devices. The main goal of FusionLink bonding is to combine multiple internet connections into a single connection to improve both bandwidth throughput and network reliability. By aggregating multiple internet breakouts, users can achieve better performance and maintain connectivity even if one of the connections fails.
 
 ## Key Features
 
 * Multipath TCP (MPTCP) for network aggregation and redundancy.
-* Focused support for Banana Pi BPi R4 and RUTX/RUTM devices from Teltonika, with future support planned for all OpenWrt devices.
+* Focused support for OpenWrt and RUTX/RUTM devices from Teltonika.
 * Uses an upstream kernel for compatibility and stability.
 * Aims to provide out-of-the-box functionality: all necessary configurations are pre-installed and ready to use from boot.
 
@@ -44,11 +44,8 @@ packages to OpenWrt, please find the fitting repository below.
 
 ## Support Information
 
-Currently the project supports the [Banana Pi BPI-R4](https://wiki.banana-pi.org/Banana_Pi_BPI-R4),
 The Teltonika [RUTX series routers](https://wiki.teltonika-networks.com/view/RUTX_Routers),
 The Teltonika [RUTM series routers](https://wiki.teltonika-networks.com/view/RUTM_Routers).
-
-More hardware coming soon!
 
 ### Documentation
 
@@ -60,7 +57,6 @@ More hardware coming soon!
 ### Support Community
 
 * [Discord]([https://forum.openwrt.org](https://discord.gg/qJ7KP6SQxC)): For usage, projects, discussions and hardware advise.
-* Wiki coming soon!
 
 ## License
 
