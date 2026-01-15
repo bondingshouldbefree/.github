@@ -4,7 +4,7 @@
   <img src="include/logolight.png" alt="openwrtmptcp Logo">
 </picture>
 
-FusionLink Multipath Bonding based on openwrtmptcp is a fork of OpenWrt that integrates Multipath TCP (MPTCP), providing advanced network aggregation and redundancy capabilities. This project leverages an upstream kernel and is currently focused on supporting the Banana Pi BPi R4, Teltonika RUTX series and Teltonika RUTM series devices, with plans to expand support to all OpenWrt-compatible devices. The main goal of openwrtmptcp is to combine multiple internet connections into a single connection to improve both bandwidth throughput and network reliability. By aggregating multiple internet breakouts, users can achieve better performance and maintain connectivity even if one of the connections fails.
+FusionLink Multipath Bonding based on Multipath TCP is a fork of OpenWrt that integrates Multipath TCP (MPTCP), providing advanced network aggregation and redundancy capabilities. This project leverages an upstream kernel and is currently focused on supporting the Banana Pi BPi R4, Teltonika RUTX series and Teltonika RUTM series devices, with plans to expand support to all OpenWrt-compatible devices. The main goal of openwrtmptcp is to combine multiple internet connections into a single connection to improve both bandwidth throughput and network reliability. By aggregating multiple internet breakouts, users can achieve better performance and maintain connectivity even if one of the connections fails.
 
 ## Key Features
 
