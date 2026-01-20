@@ -10,54 +10,16 @@ FusionLink Multipath Bonding based on Multipath TCP (MPTCP) is a set of programm
 
 * Multipath TCP (MPTCP) for network aggregation and redundancy.
 * Focused support for OpenWrt and RUTX/RUTM devices from Teltonika.
-* Uses an upstream kernel for compatibility and stability.
 * Aims to provide out-of-the-box functionality: all necessary configurations are pre-installed and ready to use from boot.
-
-## Development
-
-To build your own firmware you need a GNU/Linux, BSD or macOS system (case
-sensitive filesystem required). Cygwin is unsupported because of the lack of a
-case sensitive file system.
-
-### Requirements
-
-### Quickstart
-
-### Related Repositories
-
-The main repository uses multiple sub-repositories to manage packages of
-different categories. All packages are installed via the OpenWrt package
-manager called `opkg`. If you're looking to develop the web interface or port
-packages to OpenWrt, please find the fitting repository below.
-
-* [LuCI Web Interface](https://github.com/openwrt/luci): Modern and modular
-  interface to control the device via a web browser.
-
-* [OpenWrt Packages](https://github.com/openwrt/packages): Community repository
-  of ported packages.
-
-* [OpenWrt Routing](https://github.com/openwrt/routing): Packages specifically
-  focused on (mesh) routing.
-
-* [OpenWrt Video](https://github.com/openwrt/video): Packages specifically
-  focused on display servers and clients (Xorg and Wayland).
 
 ## Support Information
 
-The Teltonika [RUTX series routers](https://wiki.teltonika-networks.com/view/RUTX_Routers),
+Please refer to https://openwrt.org for information about the OpenWrt SDK.
+
+The Teltonika [RUTX series routers](https://wiki.teltonika-networks.com/view/RUTX_Routers).
+
 The Teltonika [RUTM series routers](https://wiki.teltonika-networks.com/view/RUTM_Routers).
-
-### Documentation
-
-* [Quick Start Guide](https://openwrt.org/docs/guide-quick-start/start)
-* [User Guide](https://openwrt.org/docs/guide-user/start)
-* [Developer Documentation](https://openwrt.org/docs/guide-developer/start)
-* [Technical Reference](https://openwrt.org/docs/techref/start)
 
 ### Support Community
 
 * [Discord]([https://forum.openwrt.org](https://discord.gg/qJ7KP6SQxC)): For usage, projects, discussions and hardware advise.
-
-## License
-
-OpenWrt is licensed under GPL-2.0
