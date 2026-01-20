@@ -22,4 +22,4 @@ The Teltonika [RUTM series routers](https://wiki.teltonika-networks.com/view/RUT
 
 ### Support Community
 
-* [Discord]([https://forum.openwrt.org](https://discord.gg/qJ7KP6SQxC)): For usage, projects, discussions and hardware advise.
+* [Discord](https://discord.gg/qJ7KP6SQxC): For usage, projects, discussions and hardware advise.
