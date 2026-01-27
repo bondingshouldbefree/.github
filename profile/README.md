@@ -4,7 +4,7 @@
   <img src="include/logolight.png" alt="openwrtmptcp Logo">
 </picture>
 
-FusionLink Multipath Bonding based on Multipath TCP (MPTCP) is a set of programmes that utilises MPTCP, providing advanced network aggregation and redundancy capabilities. This project leverages an upstream kernel and is currently focused on supporting all OpenWrt-supported devices, Teltonika RUTX series and Teltonika RUTM series devices. The main goal of FusionLink bonding is to combine multiple internet connections into a single connection to improve both bandwidth throughput and network reliability. By aggregating multiple internet breakouts, users can achieve better performance and maintain connectivity even if one of the connections fails.
+BondingShouldBeFree bonding solution based on Multipath TCP (MPTCP) is a set of programmes that utilises MPTCP, providing advanced network aggregation and redundancy capabilities. This project leverages an upstream kernel and is currently focused on supporting conventional Linux distributions, all OpenWrt-supported devices, Teltonika RUTX series and Teltonika RUTM series devices. The main goal of FusionLink bonding is to combine multiple internet connections into a single connection to improve both bandwidth throughput and network reliability. By aggregating multiple internet breakouts, users can achieve better performance and maintain connectivity even if one of the connections fails.
 
 ## Key Features
 
