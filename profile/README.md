@@ -9,7 +9,7 @@ BondingShouldBeFree bonding solution based on Multipath TCP (MPTCP) is a set of 
 ## Key Features
 
 * Multipath TCP (MPTCP) for network aggregation and redundancy.
-* Focused support for OpenWrt and RUTX/RUTM devices from Teltonika.
+* Focused support for conventional Linux distributions, OpenWrt and RUTX/RUTM devices from Teltonika.
 * Aims to provide out-of-the-box functionality: all necessary configurations are pre-installed and ready to use from boot.
 
 ## Support Information
