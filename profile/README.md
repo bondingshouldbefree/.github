@@ -6,7 +6,7 @@
 
 BondingShouldBeFree bonding solution based on Multipath TCP (MPTCP) is a set of programmes that utilises MPTCP, providing advanced network aggregation and redundancy capabilities.
 
-This project leverages an upstream kernel and is currently focused on supporting conventional Linux distributions and all [OpenWrt](https://openwrt.org/)-supported devices.
+This project leverages an upstream kernel and is currently focused on supporting conventional Linux distributions, all [OpenWrt](https://openwrt.org/)-supported devices, and [Teltonika](https://wiki.teltonika-networks.com/view/Main_Page) RUTX and RUTM series routers.
 
 The main goal of BSBF bonding is to combine multiple internet connections into a single connection to improve both bandwidth throughput and network reliability. By aggregating multiple internet breakouts, users can achieve better performance and maintain connectivity as long as there is one working connection.
 
@@ -36,7 +36,8 @@ curl -fsSL https://github.com/bondingshouldbefree/bsbf-resources/raw/main/resour
 To uninstall, run the command below.
 
 ```
-sudo bsbf-bonding --uninstall
+curl -fsSL https://github.com/bondingshouldbefree/bsbf-resources/raw/main/resources-client/bsbf-client-installer.sh \
+  | sudo sh -s -- --uninstall
 ```
 
 ### OpenWrt
@@ -57,8 +58,34 @@ The network interface with the biggest number at the end, such as lan5, will be 
 To uninstall, run the command below. This will not revert the changes made to the network configuration.
 
 ```
-bsbf-bonding --uninstall
+curl -fsSL https://github.com/bondingshouldbefree/bsbf-resources/raw/main/resources-client/bsbf-client-openwrt-installer.sh \
+  | sh -s -- --uninstall
 ```
+
+### Teltonika RUTOS
+
+For now, you need to compile an image for your device. Replace the server IPv4 address, server port, and UUID with yours below. Then run the command below.
+
+For RUTX routers:
+
+```
+git clone https://github.com/bondingshouldbefree/rutos-sdk.git -b rutx
+cd rutos-sdk
+./bsbf-compile-rutx-image.sh --server-ipv4 25.0.0.1 --server-port 16384 --uuid 60d210ef-7271-4dc9-9b93-01563608bf90
+```
+
+The image file will be at `bin/targets/ipq40xx/generic/tltFws/`.
+
+For RUTM routers:
+```
+git clone https://github.com/bondingshouldbefree/rutos-sdk.git -b rutm
+cd rutos-sdk
+./bsbf-compile-rutm-image.sh --server-ipv4 25.0.0.1 --server-port 16384 --uuid 60d210ef-7271-4dc9-9b93-01563608bf90
+```
+
+The image file will be at `bin/targets/ramips/mt7621/tltFws/`.
+
+In the future, there may be an option to install the solution by running a command.
 
 ## Server Installation and Management Guide
 

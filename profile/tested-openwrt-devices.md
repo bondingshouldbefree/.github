@@ -6,7 +6,6 @@
 - Banana Pi BPI-R4 (4GB RAM)
 - Mikrotik RBM33G (256MB RAM)
 - Mikrotik RB960PGS (128MB RAM)
-- Linksys WRT32X (512MB RAM)
 
 ## Notes
 
